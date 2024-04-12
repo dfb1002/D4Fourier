@@ -19,7 +19,7 @@ Table of contents:
 
 This Julia code is an add to the package [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl). It constructs the mathematical objects (spaces, sequences, operators,...) usually found in the aforementioned package for D4-symmetric functions. More specifically, it performs computations on Fourier series indexed on the set 
 
-$$J_{\mathrm{red}}(D_4) = \{n=(n_1,n_2) \in \mathbb{Z}^2, 0 \leq n_2 \leq n_1 \}$$
+$$J_{\mathrm{red}}(D_4) = \bigl\{n=(n_1,n_2) \in \mathbb{Z}^2, 0 \leq n_2 \leq n_1 \bigr\}$$
 
 The computations can be made rigorous by using the package [IntervalArithmetic](https://github.com/JuliaIntervals/IntervalArithmetic.jl).
 
@@ -28,7 +28,7 @@ The computations can be made rigorous by using the package [IntervalArithmetic](
 
 In [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl), derivative operators are provided. When using $D_4$-symmetric sequences, the action of differentiation does not necessarily yield another $D_4$-symmetric sequence. For simplicity, we provide the Laplacian operator as it's action on a $D_4$-symmetric sequence remains in $D_4$. More specifically,
 
-$$Laplacian(n) = \frac{\partial^n}{\partial^n x_1} + \frac{\partial^n}{\partial^n x_2}$$
+$$Laplacian(n) = \frac{\partial^n}{\partial x_1^n} + \frac{\partial^n}{\partial x_2^n}$$
  
  # Utilisation and References
  
