@@ -47,7 +47,7 @@ $$Laplacian(2) = \frac{\partial^2}{\partial x_1^2} + \frac{\partial^2}{\partial 
 If you wish to use this code in your publication, research, teaching, or other activities, please cite it using the following BibTeX template:
 
 ```
-@software{$D_4$Fourier.jl,
+@software{D4Fourier.jl,
   author = {Dominic Blanco},
   title  = {D4Fourier.jl},
   url    = {https://github.com/dominicblanco/D4Fourier.jl},
