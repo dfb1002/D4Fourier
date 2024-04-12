@@ -1,4 +1,4 @@
-# D4Fourier
+# D4Fourier.jl
 Julia code: Add on to RadiiPolynomial.jl for D4-symmetric Fourier sequences.
 # Computer assisted proofs with symmetry, reduced set of Fourier indices
 
