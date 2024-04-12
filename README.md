@@ -19,7 +19,7 @@ Table of contents:
 
 This Julia code is an add to the package [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl). It constructs the mathematical objects (spaces, sequences, operators,...) usually found in the aforementioned package for D4-symmetric functions. More specifically, it performs computations on Fourier series indexed on the set 
 
-$$J_{\mathrm{red}}(D_4) = \bigl\{n=(n_1,n_2) \in \mathbb{Z}^2, 0 \leq n_2 \leq n_1 \bigr\}$$
+$$J_{\mathrm{red}}(D_4) = \biggl\{n=(n_1,n_2) \in \mathbb{Z}^2, 0 \leq n_2 \leq n_1 \biggr\}$$
 
 The computations can be made rigorous by using the package [IntervalArithmetic](https://github.com/JuliaIntervals/IntervalArithmetic.jl).
 
