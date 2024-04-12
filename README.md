@@ -17,7 +17,7 @@ Table of contents:
 
 # Introduction
 
-This Julia code is an add to the package [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl). It constructs the mathematical objects (spaces, sequences, operators,...) usually found in the aforementioned package for D4-symmetric functions. More specifically, it performs computations on Fourier series indexed on the set 
+This Julia code is an add to the package [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl). It constructs the mathematical objects (spaces, sequences, operators,...) usually found in the aforementioned package for $D_4$-symmetric functions. More specifically, it performs computations on Fourier series indexed on the set 
 
 $$J_{\mathrm{red}}(D_4) := \left(n=(n_1,n_2) \in \mathbb{Z}^2, 0 \leq n_2 \leq n_1 \right)$$
 
