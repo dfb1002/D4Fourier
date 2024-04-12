@@ -1,5 +1,5 @@
 # D4Fourier.jl
-Julia code: Add on to RadiiPolynomial.jl for D4-symmetric Fourier sequences.
+Julia code: Add on to RadiiPolynomial.jl for $D_4$-symmetric Fourier sequences.
 # Computer assisted proofs with symmetry, reduced set of Fourier indices
 
 
@@ -36,7 +36,7 @@ $$Laplacian(2) = \frac{\partial^2}{\partial x_1^2} + \frac{\partial^2}{\partial 
  - [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl) 
  - [IntervalArithmetic](https://github.com/JuliaIntervals/IntervalArithmetic.jl)
  
- By installing [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl), you automatically install [IntervalArithmetic](https://github.com/JuliaIntervals/IntervalArithmetic.jl). Hence, by installing the former, you can use the $D_4$Fourier sequence structure.
+ By installing [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl), you automatically install [IntervalArithmetic](https://github.com/JuliaIntervals/IntervalArithmetic.jl). Hence, by installing the former, you can use the $D_4$ Fourier sequence structure.
 
  More details on using the operations can be found in the documentation for [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl).
  
