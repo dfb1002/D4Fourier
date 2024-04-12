@@ -28,7 +28,7 @@ The computations can be made rigorous by using the package [IntervalArithmetic](
 
 In [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl), derivative operators are provided. When using $D_4$-symmetric sequences, the action of differentiation does not necessarily yield another $D_4$-symmetric sequence. For simplicity, we provide the Laplacian operator as it's action on a $D_4$-symmetric sequence remains in $D_4$. More specifically,
 
-$$Laplacian(n) = \frac{\partial^n}{\partial x_1^n} + \frac{\partial^n}{\partial x_2^n}$$
+$$Laplacian(2) = \frac{\partial^2}{\partial x_1^2} + \frac{\partial^2}{\partial x_2^2}$$
  
  # Utilisation and References
  
